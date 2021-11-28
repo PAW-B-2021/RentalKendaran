@@ -16,13 +16,13 @@
                 @Html.DisplayName("Nama Customer")
             </th>
             <th>
-                @Html.DisplayName("Nik")
+                @Html.DisplayName("NIK")
             </th>
             <th>
                 @Html.DisplayName("Alamat")
             </th>
             <th>
-                @Html.DisplayName("Nomor Hp")
+                @Html.DisplayName("Nomor HP")
             </th>
             <th>
                 @Html.DisplayName("Jenis Kelamin")
@@ -49,9 +49,9 @@
                 @Html.DisplayFor(modelItem => item.IdGenderNavigation.IdGender)
             </td>
             <td>
-                <a asp-action="Edit" asp-route-id="@item.IdCustomer"><i class="fa fa-pencil" ria-hidden="true" ></i></a> |
-                <a asp-action="Details" asp-route-id="@item.IdCustomer"><i class="fa fa-list" ria-hidden="true" ></i></a> |
-                <a asp-action="Delete" asp-route-id="@item.IdCustomer"><i class="fa fa-trash" ria-hidden="true" ></i></a>
+                <a asp-action="Edit" asp-route-id="@item.IdCustomer"><i class="fa fa-pencil" ria-hidden="true"></i></a> |
+                <a asp-action="Details" asp-route-id="@item.IdCustomer"><i class="fa fa-list" ria-hidden="true"></i></a> |
+                <a asp-action="Delete" asp-route-id="@item.IdCustomer"><i class="fa fa-trash" ria-hidden="true"></i></a>
             </td>
         </tr>
 }
